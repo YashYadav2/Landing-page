@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .container{
+    max-width: 81rem;
+} */
+
+.container{
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    z-index: 10;
+}
+
+/* .container .section1{
+    position: relative;
+    max-width: 81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    z-index: 10;
+} */
+
+.Logo{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1cm;
+}
+.loco{
+    width: 80px;
+    padding-right: 2px;
+}
+
+.navbar li{
+    list-style: none;
+    margin-top: 0;
+    margin-left: 15px;
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.Window-scroll{
+    background-color:lightgreen ;
+    box-shadow: 0 1rem 2rem;
+}
+.section1 {
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section1 h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.section1 .btn {
+    size: 2cm;
+}
+.section1 .btn{
+    width: 0.7in;
+    margin: 0.5in 3in;
+   
+}
+.section2{
+    padding-right: 63px;
+    padding-left: 63px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #0000a5;
+    border-radius: 8px;
+    min-width: 23vw;
+    text-align: center;
+}
+
+.box ul{
+    list-style-type: none;
+    
+}
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1.1rem ;
+    font-weight: bold;
+}
+
+table {
+    width: 60vw;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+tr, th, td {
+    border: 1px solid #0000a5 ;
+}
+th {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the table rows */
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Style the table data cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+@media  screen and (max-width: 870px ) {
+    
+
+}
